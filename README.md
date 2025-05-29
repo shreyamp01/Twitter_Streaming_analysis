@@ -14,21 +14,7 @@ A real-time big data analytics pipeline for ingesting, processing, and analyzing
 
 ---
 
-## 📁 Project Structure
 
-twitter-pipeline/
-├── producer/
-│ └── tweet_producer.py # Kafka producer to simulate Twitter data
-├── spark/
-│ ├── stream_processing.py # Real-time PySpark stream processing
-│ └── batch_processing.py # Batch mode analytics with PySpark
-├── analysis/
-│ └── performance_analysis.py # Metrics collection and visualization
-├── twitter_data/
-│ └── synthetic_tweets_*.json # Sample JSON tweet data
-├── performance_metrics.png # Output plot
-├── README.md
-└── requirements.txt
 ## 🛠️ Technologies Used
 
 - **Kafka** – Event streaming backbone
